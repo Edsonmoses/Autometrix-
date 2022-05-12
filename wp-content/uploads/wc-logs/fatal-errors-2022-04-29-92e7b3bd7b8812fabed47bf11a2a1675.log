@@ -1,0 +1,56 @@
+2022-04-29T20:10:53+00:00 CRITICAL Uncaught Error: Failed opening required '/home2/autometr/public_html/wp-content/plugins/js_composer/include/classes/vendors/plugins/class-vc-vendor-contact-form7.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/autometr/public_html/wp-content/plugins/js_composer/include/autoload/vendors/cf7.php:15
+Stack trace:
+#0 /home2/autometr/public_html/wp-includes/class-wp-hook.php(307): vc_init_vendor_cf7('')
+#1 /home2/autometr/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/autometr/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home2/autometr/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#4 /home2/autometr/public_html/wp-config.php(96): require_once('/home2/autometr...')
+#5 /home2/autometr/public_html/wp-load.php(50): require_once('/home2/autometr...')
+#6 /home2/autometr/public_html/wp-blog-header.php(13): require_once('/home2/autometr...')
+#7 /home2/autometr/public_html/index.php(17): require('/home2/autometr...')
+#8 {main}
+  thrown in /home2/autometr/public_html/wp-content/plugins/js_composer/include/autoload/vendors/cf7.php on line 15
+
+2022-04-29T20:10:58+00:00 CRITICAL Uncaught Error: Failed opening required '/home2/autometr/public_html/wp-includes/widgets/class-wp-widget-recent-comments.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/autometr/public_html/wp-includes/default-widgets.php:53
+Stack trace:
+#0 /home2/autometr/public_html/wp-includes/functions.php(5179): require_once()
+#1 /home2/autometr/public_html/wp-includes/class-wp-hook.php(307): wp_maybe_load_widgets('')
+#2 /home2/autometr/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/autometr/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home2/autometr/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#5 /home2/autometr/public_html/wp-config.php(96): require_once('/home2/autometr...')
+#6 /home2/autometr/public_html/wp-load.php(50): require_once('/home2/autometr...')
+#7 /home2/autometr/public_html/wp-blog-header.php(13): require_once('/home2/autometr...')
+#8 /home2/autometr/public_html/index.php(17): require('/home2/autometr...')
+#9 {main}
+  thrown in /home2/autometr/public_html/wp-includes/default-widgets.php on line 53
+
+2022-04-29T20:11:06+00:00 CRITICAL Uncaught Error: Call to undefined function reisen_get_custom_option() in /home2/autometr/public_html/wp-content/themes/reisen/header.php:8
+Stack trace:
+#0 /home2/autometr/public_html/wp-includes/template.php(770): require_once()
+#1 /home2/autometr/public_html/wp-includes/template.php(716): load_template('/home2/autometr...', true, Array)
+#2 /home2/autometr/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home2/autometr/public_html/wp-content/themes/reisen/404.php(13): get_header()
+#4 /home2/autometr/public_html/wp-includes/template-loader.php(106): include('/home2/autometr...')
+#5 /home2/autometr/public_html/wp-blog-header.php(19): require_once('/home2/autometr...')
+#6 /home2/autometr/public_html/index.php(17): require('/home2/autometr...')
+#7 {main}
+  thrown in /home2/autometr/public_html/wp-content/themes/reisen/header.php on line 8
+
+2022-04-29T20:11:09+00:00 CRITICAL Uncaught Error: Failed opening required '/home2/autometr/public_html/wp-content/plugins/custom-post-type-ui/inc/tools.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/autometr/public_html/wp-content/plugins/custom-post-type-ui/custom-post-type-ui.php:203
+Stack trace:
+#0 /home2/autometr/public_html/wp-includes/class-wp-hook.php(307): cptui_create_submenus('')
+#1 /home2/autometr/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /home2/autometr/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home2/autometr/public_html/wp-content/plugins/custom-post-type-ui/custom-post-type-ui.php(186): do_action('cptui_loaded')
+#4 /home2/autometr/public_html/wp-includes/class-wp-hook.php(307): cptui_loaded('')
+#5 /home2/autometr/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /home2/autometr/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /home2/autometr/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#8 /home2/autometr/public_html/wp-config.php(96): require_once('/home2/autometr...')
+#9 /home2/autometr/public_html/wp-load.php(50): require_once('/home2/autometr...')
+#10 /home2/autometr/public_html/wp-blog-header.php(13): require_once('/home2/autometr...')
+#11 /home2/autometr/public_html/index.php(17): require('/home2/autometr...')
+#12 {main}
+  thrown in /home2/autometr/public_html/wp-content/plugins/custom-post-type-ui/custom-post-type-ui.php on line 203
+

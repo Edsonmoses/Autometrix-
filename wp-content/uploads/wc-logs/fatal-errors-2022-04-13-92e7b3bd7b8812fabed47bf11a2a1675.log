@@ -1,0 +1,10 @@
+2022-04-13T08:48:42+00:00 CRITICAL Uncaught Error: Failed opening required '/home2/autometr/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Schedulers/MailchimpScheduler.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/autometr/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:87
+Stack trace:
+#0 /home2/autometr/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Events.php(106): Automattic\Jetpack\Autoloader\jp8ce0b6a9dbd1362fc8657213c6964c3f\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home2/autometr/public_html/wp-includes/class-wp-hook.php(307): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#2 /home2/autometr/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /home2/autometr/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#4 /home2/autometr/public_html/wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#5 {main}
+  thrown in /home2/autometr/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
